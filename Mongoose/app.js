@@ -34,7 +34,7 @@ app.use(errorController.get404);
 
 mongoose
   .connect(
-    "mongodb+srv://mohammad:NuTTertYs12@cluster0.qt8a9.mongodb.net/Shop?retryWrites=true&w=majority",
+    "mongodb+srv://@cluster0.qt8a9.mongodb.net/Shop?retryWrites=true&w=majority",
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then((result) => {
